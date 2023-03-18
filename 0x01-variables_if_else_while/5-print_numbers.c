@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - function 
- * preform: print all the digit numbers base 10
- * starting from 0.
+ * main - main function
+ * Description:printing digit number
  * Return: 0
  */
 int main(void)
