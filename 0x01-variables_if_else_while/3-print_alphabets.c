@@ -1,18 +1,15 @@
 #include <stdio.h>
-
 /**
- * main: function is lowercase of alphabet
- * perform: printing alphabet in loercase and uppercase
- * 
- * Return: Always 0
+ * main - main block
+ * Description:  prints the alphabet in lowercase,
+ * and then in uppercase, followed by a new line.
+ * Return: Alway 0
  */
-
  int main(void)
 {
 	char c = 'a';
 
-	while (c <= 'z');
-
+	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
