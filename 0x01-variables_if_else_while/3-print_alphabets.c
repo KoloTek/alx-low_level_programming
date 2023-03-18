@@ -26,5 +26,7 @@
 		putchar(c);
 		c++;
 	}
-		pitchar('\n');
+	
+	pitchar('\n');
 	return (0);
+}
