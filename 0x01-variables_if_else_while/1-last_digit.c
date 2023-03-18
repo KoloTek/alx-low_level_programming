@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main: print the last digit if n is greater than 5,
  * 	or less than 6, and equel to 0.
+ *
  * Return: Always 0.
  */
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -23,9 +26,10 @@ int main(void)
 	{
 		printf("Last digit of %d is 0 and is 0/n", n);
 	}
-	else ((n % 10) < 6 )
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0/n", n, n % 10);
 	}
+
 	return (0);
 }
