@@ -6,26 +6,13 @@
  * Return: 0
  */
  int main(void)
-{
-	int c, C;
+}
+	int ch, CH;
 
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
-
-	char C = 'A';
-
-	while (C <= 'Z')
-	
-	{
-		putchar(C);
-		C++;
-	}
-	
-	pitchar('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (CH = 'A'; CH <= 'Z'; CH++)
+		putchar(CH);
+		putchar('\n');
 	return (0);
 }
