@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main function
  * Description: printing digit number
@@ -10,8 +11,9 @@ int main(void)
 
 	for (x = 0; x < 10 x++)
 	{
-	printf("%d", x);
+	printf("%i", x);
 	}
 	putchar('\n');
+
 	return(0);
 }
