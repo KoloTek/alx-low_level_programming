@@ -1,3 +1,8 @@
+/*
+ * File: 1-last_digit.c
+ * Auth: olaleakn kayode.s
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
