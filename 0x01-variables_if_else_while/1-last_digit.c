@@ -6,6 +6,9 @@
  * 	or less than 6, and equel to 0.
  * Return: Always 0.
  */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -18,7 +21,7 @@ int main(void)
 	}
 	else if (n % 10 == 0)
 	{
-		printf("Last digit of %d is 0 is 0/n", n);
+		printf("Last digit of %d is 0 and is 0/n", n);
 	}
 	else ((n % 10) < 6 )
 	{
