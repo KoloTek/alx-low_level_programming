@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - function alphabet 
- * perform: print alphabet expect q, e 
- *
- * Return: Return
+ * main - main function
+ * Description:printing alphabet in lowercase
+ * Return: Always 0
  */
 
 int main(void)
 {
 	int ch;
 
-	for (ch = 'a'; for ch <= 'z';)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-	if ch != q && ch != e
+	if ch != 'q' && ch != 'e'
 		putchar (ch);
 	}
 		putchar ('\n');
