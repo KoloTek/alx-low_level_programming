@@ -7,6 +7,8 @@
  */
  int main(void)
 {
+	int c, C;
+
 	char c = 'a';
 
 	while (c <= 'z')
@@ -20,8 +22,8 @@
 	while (C <= 'Z')
 	
 	{
-		putchar(c);
-		c++;
+		putchar(C);
+		C++;
 	}
 	
 	pitchar('\n');
