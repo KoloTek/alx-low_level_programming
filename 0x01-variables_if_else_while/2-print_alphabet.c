@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 /**
+ * main - main function
+ * Description:printing alphabets in lowercase
+ * Return: Retur n
+ */
+
+/**
  * main - function,resulu
  * perform: wirte alphabet in lowercase
  *
- * Return: Always 0
+ * Return: Always n
  */
 
 int main(void)
