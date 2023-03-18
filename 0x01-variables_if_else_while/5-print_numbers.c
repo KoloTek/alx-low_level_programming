@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
  * main - main function
- * Description:printing digit number
- * Return: 0
+ * Description: printing digit number
+ * Return: Always 0
  */
 int main(void)
 {
 	int x;
 
-	for (x = 0; x <= 9 x++)
+	for (x = 0; x < 10 x++)
 	{
-		printf("%d", x);
+	printf("%d", x);
 	}
 	putchar('\n');
 	return(0);
