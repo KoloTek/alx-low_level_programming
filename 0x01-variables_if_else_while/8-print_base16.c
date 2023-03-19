@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(d + 0);
 	}
-	for(ko = 'a'; ko = 'l' ko++);
+	for(ko = 'a'; ko <= 'l' ko++);
 	{
 		putchar(ko);
 	}
