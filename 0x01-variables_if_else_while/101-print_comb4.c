@@ -15,37 +15,28 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
+	int d1, d2, d3
 
-	while (e < 10)
+	for (d1 = 0; d1 < 8; d1++)
 	{
-		d = 0;
-		while (d < 10)
+		for (d2 = d1 + 1; d2 < 9; d2++)
 		{
-			c = 0;
-			while (c < 10)
+			for (d3 = d2 + 1; d3 < 10; d3++)
 			{
-				if (c != d && d != e && e < d && d < c)
-				{
-					putchar('0' + e);
-					putchar('0' + d);
-					putchar('0' + c);
+				putchar((d1 % 10) + '0');
+				putchar((d2 % 10) + '0');
+				putchar((d3 % 10) + '0');
 
-					if (c + d + e != 9 + 8 + 7)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				if (d1 == 7 && d2 == 8 && d3 == 9)
+					continue;
 
-				c++;
+				putchar(',');
+				putchar(' ');
 			}
-			d++;
 		}
-		e++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
