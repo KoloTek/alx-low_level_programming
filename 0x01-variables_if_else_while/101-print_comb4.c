@@ -23,16 +23,16 @@ int main(void)
 
 	if d1 = 0
        
-	while (d1 < 8)
+	while (d1 < 8; d1++)
 	
 	{
 		if d2 = 0
 
-		while (d2 < 9)
+		while (d2 < 9; d2++)
 		{
 			if d3 = 0
 
-			while (d3 < 10)
+			while (d3 < 10; d3++)
 			{
 				if (d1 != d2 && d2 != d3 && d3 < d2 && d1 < d2)
 				{
@@ -46,11 +46,8 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				d3++;
 			}
-			d2++;
 		}	
-		d1++;
 	}
 
 	putchar('\n');
