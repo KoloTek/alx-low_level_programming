@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * preform: printing all single numbers from base 10
- * starting from 0
- * Return: Always 0
- */
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int x;
