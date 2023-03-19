@@ -13,7 +13,7 @@ int main(void)
 		char ko;
 
 		for(d = 0; d <= '9'; d++);
-		putchar(d + 0);
+		putchar(d);
 		
 		for(ko = 'a'; ko <= 'o' ko++);
 		putchar(ko);
