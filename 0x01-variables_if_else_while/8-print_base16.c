@@ -11,15 +11,16 @@ int main(void)
 {
 	int d;
 	char ko;
+
 	for(d = 0; d <= 15; d++)
 	{
 		putchar(d + 0);
 	}
-	for(ko = 'a'; ko = 'l');
+	for(ko = 'a'; ko = 'l' ko++);
 	{
 		putchar(ko);
 	}
 		putchar('\n');
 
 	return (0);
-}	
+}
