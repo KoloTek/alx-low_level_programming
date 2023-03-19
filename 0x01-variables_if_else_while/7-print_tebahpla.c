@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - function
- * preform: print lowercase alphabet from reverse
- * return: always 0
+ * main: print lowercase alphabet from reverse
+ *
+ * return: always 0.
  */
 int main(void)
 {
