@@ -15,44 +15,37 @@
  */
 int main(void)
 {
-	int d1; 
-	
-	int d2; 
-	
-	int d3;
+	int c;
+	int d;
+	int e = 0;
 
-	if d1 = 0
-       
-	while (d1 < 8; d1++)
-	
+	while (e < 10)
 	{
-		if d2 = 0
-
-		while (d2 < 9; d2++)
+		d = 0;
+		while (d < 10)
 		{
-			if d3 = 0
-
-			while (d3 < 10; d3++)
+			c = 0;
+			while (c < 10)
 			{
-				if (d1 != d2 && d2 != d3 && d3 < d2 && d1 < d2)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar(d1 + '0');
-					putchar(d2 + '0');
-					putchar(d3 + '0');
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
 
-					if (d1 == 7 && d2 == 8 && d3 == 9)
-					{				
+					if (c + d + e != 9 + 8 + 7)
+					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+
+				c++;
 			}
-		}	
+			d++;
+		}
+		e++;
 	}
-
 	putchar('\n');
-
 	return (0);
 }
-
-			
