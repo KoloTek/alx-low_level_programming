@@ -9,19 +9,17 @@
  */
 int main(void)
 {
-	int d;
-	char ko;
-	
-	for (d = 0; d <= '9'; d++);
-	{	
-		putchar(d + 0);
-	}
-		
-	for (ko = 'a'; ko <= 'g' ko++);
+	char c;
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(ko);
-	}	
-		
+		putchar(i + '0');
+	}
+	for (c = 'a'; c < 'g'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 
 	return (0);
