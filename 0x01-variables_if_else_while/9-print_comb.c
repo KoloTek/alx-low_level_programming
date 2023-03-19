@@ -1,23 +1,19 @@
 #include <stdio.h>
 /**
- * main function
- * printing number in asending order sperated with ','
- * result: always 0
+ * main - main function
+ *
+ * Return: 0
  */
 int main(void)
 {
-	int c = 0;
+	int i = 0;
 
-	while (c < 10)
+	for (i = 10; i < 99; i++)
 	{
-		putchar(48 + c);
-		if (c != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		c++;
+		putchar(i);
+		putchar(',');
 	}
+
 	putchar('\n');
 	return (0);
 }
