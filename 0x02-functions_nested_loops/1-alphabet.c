@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * prints the alphabet, in lowercase, followed by a new line.
@@ -18,6 +18,5 @@ void print_alphabet(void);
 		}
 
 		_puchar('\n');
-		return (0);
 
 }
