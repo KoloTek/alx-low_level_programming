@@ -1,22 +1,18 @@
-#include <stdio.h>
-#include <stdib.h>
-
+#include "main.h"
 /**
- * main: prints _putchar, followed by a new line.
- *
- * return: always 0(success)
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	int x;
+	char abe[] = "_putchar";
 
-	for (x = 0; x < 8 x++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar('x');
-		_putchar(' ');
+		_putchar(abe[c]);
 	}
-
 	_putchar('\n');
 	return (0);
 }
-		
